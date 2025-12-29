@@ -1,0 +1,80 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif; /* jenis font */
+    background-color: #f0c0f7; /* Warna latar biru muda */
+    padding: 20px; /*jarak antara background */
+    color: #b330b7; /* Warna teks dasar */
+}
+
+header {
+    background-color: #b121af; /* Warna latar header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #47014a; /* Warna judul */
+}
+
+h1 {
+    font-size: 2em; /* Ukuran judul lebih sederhana */
+}
+
+p {
+    font-size: 1em; /* Ukuran teks normal */
+    margin: 10px;
+}
+
+main {
+    max-width: 900px; /* Batas lebar untuk rapi */
+    margin: 0 auto; /* Pusatkan konten */
+    padding: 20px;
+    background-color: white; /* Latar putih */
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px; /* Padding sederhana */
+    border: 1px solid #f0c0f7; /* uk garis kolom */
+    text-align: center;
+}
+
+th {
+    background-color: #be53c2; /* Warna header */
+    color: white;
+}
+
+a {
+    color: #8d5197; /* Warna link */
+    text-decoration: underline; 
+}
+
+form { 
+    padding: 20px; /*batas border anatar konten atas*/
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px; /* uk besar kolom nama dan email */
+    margin-bottom: 10px; /*spasi anatara kolom nama dan email*/
+    border: 1px solid #cc57df; /* uk garis kolom */
+}
+
+button {
+    background-color: #7b0680;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: #7b0680;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}

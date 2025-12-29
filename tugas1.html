@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website belajar HTML dan CSS untuk pemula. Temukan tips, topik, dan sumber belajar.">
+    <title>-Hallo Rani-</title>
+    <a href="poto candid.jpg"></a>
+    
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="tugas1.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Situs Belajar HTML dan CSS!</h1>
+        <p>Yuk, mulai belajar di sini, Anda akan menemukan tips mudah untuk memahami dasar-dasar web development.</p>
+    </header>
+    
+    <main>
+        <section id="awal">
+            <h2>Apa Itu HTML dan CSS?</h2>
+            <p>HTML (HyperText Markup Language) adalah bahasa markup untuk membuat struktur halaman web, sementara CSS (Cascading Style Sheets) digunakan untuk mendesain dan mempercantik tampilannya. Belajar keduanya adalah langkah awal untuk menjadi web developer. Di situs ini, kami menyediakan panduan sederhana untuk pemula.</p>
+            <p><strong>Tips Belajar:</strong> Mulailah dengan proyek kecil, seperti membuat halaman sederhana, dan praktikkan setiap hari untuk hasil maksimal!</p>
+        </section>
+        
+        <section id="topik">
+            <h2>Daftar Topik Belajar</h2>
+            <table>
+                <tr>
+                    <th>Topik</th>
+                    <th>Deskripsi</th>
+                    <th>Link Belajar</th>
+                </tr>
+                <tr>
+                    <td>Dasar HTML</td>
+                    <td>Belajar tentang tag dasar HTML untuk membuat struktur halaman.</td>
+                    <td><a href="https://www.w3schools.com/html/default.asp" target="_blank">Pelajari HTML W3Schools</a></td>
+                </tr>
+                <tr>
+                    <td>Form dan Input</td>
+                    <td>Cara membuat form interaktif untuk mengumpul data pengguna, seperti login atau survey.</td>
+                    <td><a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">Pelajari di W3Schools</a></td>
+                </tr>
+                <tr>
+                    <td>Styling dengan CSS</td>
+                    <td>Menggunakan CSS untuk mengatur warna, layout, dan animasi agar halaman web lebih menarik.</td>
+                    <td><a href="https://www.w3schools.com/css/default.asp" target="_blank">Pelajari CSS di W3Schools </a></td>
+                </tr>
+                <tr>
+                    <td>Responsive Design</td>
+                    <td>Teknik membuat website yang menyesuaikan dengan ukuran layar, seperti mobile-friendly.</td>
+                    <td><a href="https://www.w3schools.com/css/css_rwd_intro.asp" target="_blank">Coba di W3Schools</a></td>
+                </tr>
+                <tr>
+                    <td>Animasi CSS</td>
+                    <td>Membuat efek animasi sederhana untuk meningkatkan interaksi pengguna.</td>
+                    <td><a href="https://www.w3schools.com/css/css3_animations.asp" target="_blank">Animasi di W3Schools</a></td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="form-section">
+            <h2>Beri Feedback atau Daftar Belajar</h2>
+            <p>Kami ingin tahu pendapat Anda! Isi form di bawah untuk memberikan feedback atau mendaftar update belajar.</p>
+            <form action="/submit-feedback" method="post">
+                <label for="nama">Nama Anda:</label>
+                <input type="text" id="nama" name="nama" required>
+                
+                <label for="email">Email Anda:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="feedback">Feedback atau Saran:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                
+                <button type="submit">Kirim Feedback</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Situs Belajar HTML dan CSS.</p>
+        <p>Ayoo belajar bareng!</p>
+    </footer>
+</body>
+</html>
