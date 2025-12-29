@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Halaman belajar dengan contoh barang, gambar, dan formulir.">
+    <title>Belajar - Hallo Rani</title>
+    
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="kode.css">
+</head>
+<body>
+    <header>
+        <h1>Hallo Rani</h1>
+        <p>Sudah siap belajar??</p>
+    </header>
+    
+    <main>
+        <h2>Daftar Barang dengan Gambar</h2>
+        <table border="1">
+            <tr>
+                <th>Nama Barang</th>
+                <th>Gambar</th>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/icAqq3u7uTXSX9R0m">Laptop</a></td>
+                <td><img src="gambarLaptop.jpg" width="150" alt="Gambar Laptop"></td>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/o9FTokNkjba1ySqhf">Komputer</a></td>
+                <td><img src="gambarKomputer.png" width="100" alt="Gambar Komputer"></td>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/NWNvWNXdYL4hp9Luq">Sepedah</a></td>
+                <td><img src="gambarSepedah.jpg" width="150" alt="Gambar Sepedah"></td>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/9z5lqH6AYMkfjft6R">Kamera</a></td>
+                <td><img src="gambarKamera.jpg" width="100" alt="Gambar Kamera"></td>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/lSOozH2J7cnDO84V3">Hp</a></td>
+                <td><img src="gambarHp.jpg" width="100" alt="Gambar Hp"></td>
+            </tr>
+        </table>
+        
+        <h2>Daftar Barang dengan List</h2>
+        <table border="2">
+            <tr>
+                <th>Nama Barang</th>
+                <th>List Barang</th>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/fC4raSaIiVWp0blIi">Pisau</a></td>
+                <td>
+                    <ul>
+                        <li>Pisau buah</li>
+                        <li>Pisau kecil</li>
+                        <li>Pisau koki</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/tQg1CPoBHvbiJAI3r">Palu</a></td>
+                <td>
+                    <ul>
+                        <li>Palu kecil</li>
+                        <li>Palu besar</li>
+                        <li>Palu buat mukul cahyo</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/tQg1CPoBHvbiJAI3r">Gunting</a></td>
+                <td>
+                    <ul>
+                        <li>Gunting kuku</li>
+                        <li>Gunting kawat</li>
+                        <li>Gunting kertas</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td><a href="https://share.google/images/tQg1CPoBHvbiJAI3r">Obeng</a></td>
+                <td>
+                    <ul>
+                        <li>Obeng kecil</li>
+                        <li>Obeng 1</li>
+                        <li>Obeng a</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        
+        <h2>Formulir Input</h2>
+        <form action="/submit" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Kirim</button>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Belajar HTML dan CSS. Semua hak cipta dilindungi.</p>
+    </footer>
+</body>
+</html>
